@@ -33,10 +33,6 @@ aevalsrc=0:d=5[s3];[s3]adelay=delays=12879.999999999998|12879.999999999998,volum
 aevalsrc=0:d=5[s4];[s4]adelay=delays=17880|17880,volume=1[a4?];
 aevalsrc=0:d=3.3[s5];[s5]adelay=delays=22880|22880,volume=1[a5?];
 [a0?][a1?][a2?][a3?][a4?][a5?]amix=inputs=6:duration=longest[a_concat]
--aspect
-9/16
--preset
-veryfast
 -movflags
 +faststart
 -map
